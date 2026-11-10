@@ -1,5 +1,20 @@
 [
   {
+    "path": "board_racing",
+    "icon": "🛹",
+    "name": {
+      "ko": "바람보드 레이싱",
+      "ja": "ウィンドボード・レーシング",
+      "en": "Windboard Racing"
+    },
+    "summary": {
+      "ko": "하늘을 나는 보드를 타고 달리는 3D 웹 레이싱 게임. 점프대에서 A로 뛰어 S·D·F로 공중 묘기(GB·360·720)를 부리고, 타이밍에 따라 GOOD·NICE·EXCELLENT 판정으로 게이지를 모아 부스터를 씀. 나무 계단·얼음길·하늘 섬 낭떠러지·8자 다리 등 트랙 5개에서 개인전·팀전(4 대 4)·타임어택·아이템전. 레벨을 올려 보드를 사고, 희귀 보드는 경주 뒤 행운 상자에서만 나옴. 6자리 방 코드로 친구들과 최대 8명 온라인. 게임 엔진 Godot로 제작",
+      "ja": "空飛ぶボードで走る3DのWebレースゲーム。ジャンプ台でAキーで跳び、S・D・Fで空中トリック（GB・360・720）を決め、タイミングに応じたGOOD・NICE・EXCELLENTの判定でゲージをためてブースターを使う。木の階段・氷の道・空の島の崖・8の字の橋など5コースで、個人戦・チーム戦（4対4）・タイムアタック・アイテム戦。レベルを上げてボードを買い、レアボードはレース後のラッキーボックスからだけ出る。6桁のルームコードで最大8人のオンライン対戦もできる。ゲームエンジン Godot で制作",
+      "en": "A 3D browser racing game on flying hoverboards. Press A to launch off ramps and S, D or F for mid-air tricks (grab, 360, 720), earning GOOD, NICE or EXCELLENT ratings on your timing to fill the boost gauge. Race solo, in 4-on-4 teams, in time trials or item races across five tracks with wooden stairs, ice, sky-island gaps and a figure-eight bridge. Level up to buy new boards, with rare boards only from the lucky box after a race, and race up to eight friends online with a six-character room code. Built with the Godot engine"
+    },
+    "image": "images/boardracing-race.jpg"
+  },
+  {
     "path": "toy_racing",
     "icon": "🏎️",
     "name": {
