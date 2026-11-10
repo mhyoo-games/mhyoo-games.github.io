@@ -8,9 +8,9 @@
       "en": "Toy Racing"
     },
     "summary": {
-      "ko": "숲속 트랙을 장난감 카트로 달리는 3D 웹 레이싱 게임. 드리프트로 게이지를 모아 부스터를 쓰고, 순간부스터·인코스 공략·잔디 커팅 같은 기술로 컴퓨터 7명과 겨룸. 모은 코인으로 카트를 사고, 한 화면을 나눠 둘이서 하거나 코드를 주고받아 친구와 온라인으로도 달릴 수 있음. 게임 엔진 Godot로 제작",
-      "ja": "森のコースをおもちゃのカートで走る3DのWebレースゲーム。ドリフトでゲージをためてブースターを使い、瞬間ブースター・インコース攻略・芝生のショートカットなどのテクニックでCPU 7台と競う。集めたコインでカートを買え、画面分割の2人プレイや、コードを送り合ってつなぐ友だちとのオンライン対戦もできる。ゲームエンジン Godot で制作",
-      "en": "A 3D browser racing game with toy karts on forest tracks. Drift to fill a gauge for boosts, and use quick boosts, inside lines and boosted shortcuts across the grass to beat seven CPU drivers. Buy new karts with the coins you earn, and race a friend in split screen or online by swapping connection codes. Built with the Godot engine"
+      "ko": "숲속 트랙을 장난감 카트로 달리는 3D 웹 레이싱 게임. 드리프트로 게이지를 모아 부스터를 쓰고, 순간부스터·인코스 공략·드리프트를 짧게 끊어 치는 커팅 같은 기술로 컴퓨터 7명과 겨룸. 모은 코인으로 카트를 사고, 한 화면을 나눠 둘이서 하거나 코드를 주고받아 친구와 온라인으로도 달릴 수 있음. 게임 엔진 Godot로 제작",
+      "ja": "森のコースをおもちゃのカートで走る3DのWebレースゲーム。ドリフトでゲージをためてブースターを使い、瞬間ブースター・インコース攻略・ドリフトを短く刻むカッティングなどのテクニックでCPU 7台と競う。集めたコインでカートを買え、画面分割の2人プレイや、コードを送り合ってつなぐ友だちとのオンライン対戦もできる。ゲームエンジン Godot で制作",
+      "en": "A 3D browser racing game with toy karts on forest tracks. Drift to fill a gauge for boosts, and use quick boosts, inside lines and cutting with short, clipped drifts to beat seven CPU drivers. Buy new karts with the coins you earn, and race a friend in split screen or online by swapping connection codes. Built with the Godot engine"
     },
     "image": "images/toyracing-race.jpg"
   },
