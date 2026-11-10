@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>mhyoo games — 유민혁이 만든 웹 게임</title>
+<meta name="description" content="브라우저에서 바로 하는 웹 게임 모음: 횡스크롤 모험, 리듬 게임, RPG, 미니게임">
+<meta name="theme-color" content="#1a1221">
+<style>
+  @font-face { font-family: Galmuri; src: url(fonts/Galmuri11.woff2) format('woff2'); }
+  @font-face { font-family: Galmuri; src: url(fonts/Galmuri11-Bold.woff2) format('woff2'); font-weight: bold; }
+  :root { --bg: #1a1221; --card: #2a1d33; --line: #3f2631; --text: #fff4de; --sub: #cdbfd8; --accent: #ffd75a; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.65 Galmuri, system-ui, sans-serif;
+    background-image: radial-gradient(circle at 20% 10%, #3a2150 0, transparent 40%), radial-gradient(circle at 85% 0%, #24365a 0, transparent 35%); min-height: 100vh; }
+  header { max-width: 1080px; margin: 0 auto; padding: 48px 20px 12px; display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 16px; }
+  h1 { margin: 0; font-size: 34px; letter-spacing: 1px; }
+  h1 span { color: var(--accent); }
+  header p { margin: 6px 0 0; color: var(--sub); }
+  .lang { display: flex; gap: 6px; }
+  .lang button { font: inherit; font-size: 13px; color: var(--sub); background: transparent; border: 2px solid var(--line); border-radius: 8px; padding: 4px 10px; cursor: pointer; }
+  .lang button[aria-pressed=true] { color: var(--bg); background: var(--accent); border-color: var(--accent); }
+  main { max-width: 1080px; margin: 0 auto; padding: 16px 20px 56px; display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
+  .card { background: var(--card); border: 3px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; text-decoration: none; color: inherit; transition: transform .12s, border-color .12s; }
+  .card:hover, .card:focus-visible { transform: translateY(-3px); border-color: var(--accent); outline: none; }
+  .card img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; image-rendering: pixelated; background: #000; }
+  .body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+  .card h2 { margin: 0; font-size: 19px; }
+  .card p { margin: 0; color: var(--sub); font-size: 13.5px; flex: 1; }
+  .play { align-self: flex-start; font-weight: bold; color: var(--bg); background: var(--accent); border-radius: 8px; padding: 4px 12px; font-size: 14px; }
+  footer { max-width: 1080px; margin: 0 auto; padding: 0 20px 40px; color: #8f7fa0; font-size: 12px; }
+  footer a { color: var(--sub); }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>mhyoo <span>games</span></h1>
+    <p id="lead"></p>
+  </div>
+  <div class="lang" role="group" aria-label="언어">
+    <button data-l="ko">한국어</button><button data-l="ja">日本語</button><button data-l="en">English</button>
+  </div>
+</header>
+<main id="list"></main>
+<footer id="foot"></footer>
+<script>
+const GAMES = /*GAMES*/[];
+const TEXT = {
+  ko: { lead: '유민혁이 만든 웹 게임 모음 — 설치 없이 브라우저에서 바로 해요. PC·휴대폰 모두 돼요.', play: '하러 가기 ▶', foot: '그림은 직접 코드로 그리거나 Kenney(CC0) 에셋을 썼고, 글꼴은 갈무리(OFL)예요. 만든 사람: 유민혁 · <a href="https://minhyuk94.github.io/resume/">이력서</a>' },
+  ja: { lead: 'ユ・ミンヒョクが作ったWebゲーム集。インストール不要で、ブラウザからすぐ遊べます。PC・スマホ対応。', play: '遊ぶ ▶', foot: '絵はコードで描いたもの、またはKenney（CC0）の素材です。フォントはGalmuri（OFL）。制作: ユ・ミンヒョク · <a href="https://minhyuk94.github.io/resume/">履歴書</a>' },
+  en: { lead: 'Browser games made by Minhyuk Yoo — no install, play right away on PC or phone.', play: 'Play ▶', foot: 'Art is drawn in code or uses Kenney (CC0) assets; font is Galmuri (OFL). Made by Minhyuk Yoo · <a href="https://minhyuk94.github.io/resume/">Résumé</a>' },
+};
+function pick() {
+  const q = new URLSearchParams(location.search).get('lang');
+  let saved = null; try { saved = localStorage.getItem('mg_lang'); } catch (e) {}
+  const nav = (navigator.language || 'ko').slice(0, 2);
+  return [q, saved, nav].find((l) => l && TEXT[l]) || 'ko';
+}
+function render(l) {
+  document.documentElement.lang = l;
+  const t = TEXT[l];
+  document.getElementById('lead').textContent = t.lead;
+  document.getElementById('foot').innerHTML = t.foot;
+  const list = document.getElementById('list'); list.textContent = '';
+  for (const g of GAMES) {
+    const a = document.createElement('a'); a.className = 'card'; a.href = `./${g.path}/`;
+    const img = document.createElement('img'); img.src = g.image; img.alt = g.name[l]; img.loading = 'lazy';
+    const b = document.createElement('div'); b.className = 'body';
+    const h = document.createElement('h2'); h.textContent = `${g.icon} ${g.name[l]}`;
+    const p = document.createElement('p'); p.textContent = g.summary[l];
+    const s = document.createElement('span'); s.className = 'play'; s.textContent = t.play;
+    b.append(h, p, s); a.append(img, b); list.append(a);
+  }
+  for (const btn of document.querySelectorAll('.lang button')) btn.setAttribute('aria-pressed', String(btn.dataset.l === l));
+}
+for (const btn of document.querySelectorAll('.lang button')) btn.addEventListener('click', () => { try { localStorage.setItem('mg_lang', btn.dataset.l); } catch (e) {} render(btn.dataset.l); });
+render(pick());
+</script>
+</body>
+</html>

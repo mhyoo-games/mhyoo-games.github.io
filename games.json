@@ -1,0 +1,77 @@
+[
+  {
+    "path": "LeftAlonePuppy",
+    "icon": "🐶",
+    "name": {
+      "ko": "홀로 남은 강아지",
+      "ja": "ひとりぼっちの子犬",
+      "en": "Left Alone Puppy"
+    },
+    "summary": {
+      "ko": "이삿날 농장에 홀로 남은 아기 강아지가 주인을 찾아 도시까지 떠나는 웹 횡스크롤 모험. 8개 스테이지마다 다른 기믹과 보스가 있고, 사이에 지도로 길을 이어 감. PC와 휴대폰 모두 지원",
+      "ja": "引っ越しの日に農場へ取り残された子犬が、飼い主を探して街まで旅するWebの横スクロールアクション。8つのステージごとに異なるギミックとボスがあり、ステージの間はマップで旅路をたどる。PCとスマートフォンの両方に対応",
+      "en": "A browser side-scrolling adventure in which a puppy left behind on a farm on moving day travels all the way to the city to find its owner. Each of the eight stages has its own gimmick and boss, linked by a world map. Works on both PC and phones"
+    },
+    "image": "images/puppy-farm.jpg"
+  },
+  {
+    "path": "youtujam",
+    "icon": "🎹",
+    "name": {
+      "ko": "유튜잼",
+      "ja": "ユーチュージャム",
+      "en": "YouTuJam"
+    },
+    "summary": {
+      "ko": "떨어지는 노트를 박자에 맞춰 치는 건반 방식에, 망치로 못을 박는 방식과 해와 달이 돌며 길을 따라가는 방식까지 세 가지로 즐기는 웹 리듬 게임. 자체곡은 브라우저에서 실시간으로 합성하고, 유튜브 영상 음악으로도 할 수 있음. PC와 휴대폰 모두 지원",
+      "ja": "落ちてくるノーツを鍵盤で叩くモードに加え、ハンマーで釘を打つモード、太陽と月が回りながら道をたどるモードの3種類で遊べるWebリズムゲーム。オリジナル曲はブラウザでリアルタイムに合成し、YouTube動画の音楽でも遊べる。PCとスマートフォンの両方に対応",
+      "en": "A browser rhythm game with three ways to play: hitting falling notes on a keyboard, hammering nails on a conveyor belt, and following a path as a sun and moon orbit each other. Original songs are synthesized live in the browser, YouTube music can be played too, and it works on both PC and phones"
+    },
+    "image": "images/youtujam-play4.jpg"
+  },
+  {
+    "path": "haesol",
+    "icon": "🏯",
+    "name": {
+      "ko": "해솔국 이야기",
+      "ja": "ヘソル国物語",
+      "en": "Tales of Haesol"
+    },
+    "summary": {
+      "ko": "2000년대 초 국산 온라인 RPG 감성으로 새로 만든 2D RPG. 게임 엔진 Godot로 만들고, 그림·소리·지도를 모두 코드로 생성",
+      "ja": "2000年代初めの韓国製オンラインRPGの雰囲気で新たに作った2D RPG。ゲームエンジン Godot で制作し、グラフィック・サウンド・マップをすべてコードで生成",
+      "en": "A new 2D RPG in the spirit of early-2000s Korean online RPGs, built with the Godot engine, with all graphics, sound and maps generated from code"
+    },
+    "image": "images/haesol-town.jpg"
+  },
+  {
+    "path": "dalmaru",
+    "icon": "🌕",
+    "name": {
+      "ko": "달마루 모험기",
+      "ja": "タルマル冒険記",
+      "en": "Dalmaru Adventure"
+    },
+    "summary": {
+      "ko": "게임 엔진 Godot로 만든 탑다운 액션 RPG. 주인공 셋 중 하나를 골라 4장 모험을 떠나며, 그림·소리·지도를 모두 코드로 생성",
+      "ja": "ゲームエンジン Godot で作ったトップダウン型アクションRPG。3人の主人公から1人を選んで全4章の冒険へ。グラフィック・サウンド・マップはすべてコードで生成",
+      "en": "A top-down action RPG built with the Godot engine: pick one of three heroes for a four-chapter adventure, with all graphics, sound and maps generated from code"
+    },
+    "image": "images/dalmaru-village.jpg"
+  },
+  {
+    "path": "flashgames",
+    "icon": "🕹️",
+    "name": {
+      "ko": "추억의 오락실",
+      "ja": "思い出のゲームセンター",
+      "en": "Retro Arcade"
+    },
+    "summary": {
+      "ko": "옛 웹 미니게임 감성의 게임들을 새로 만들어 모은 웹 오락실",
+      "ja": "昔のWebミニゲームの雰囲気を再現したゲームを新たに作って集めたWebゲームセンター",
+      "en": "A web arcade of newly made games in the spirit of classic browser mini-games"
+    },
+    "image": "images/kkaebi-title.jpg"
+  }
+]
