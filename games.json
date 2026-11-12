@@ -1,5 +1,20 @@
 [
   {
+    "path": "meditation_web",
+    "icon": "🍁",
+    "name": {
+      "ko": "단풍마을 산책",
+      "ja": "紅葉の村さんぽ",
+      "en": "Maple Village Walk"
+    },
+    "summary": {
+      "ko": "단풍이 물든 작은 마을을 동물 친구와 천천히 걸으며 쉬어 가는 3D 힐링 웹사이트. 절에 가면 목탁 소리와 반야심경 독경, 교회에 가면 오르간 찬송가와 크리스마스 캐럴, 성당에 가면 성가대 노래가 들리고, 가까이 갈수록 그곳 음악이 서서히 커짐. 동물 11종 중 하나를 골라 걷고, 나머지는 주민이 되어 방석에 앉아 명상하거나 광장·연못을 거님. 그 자리에 앉아 호흡 안내를 따라 하는 명상 모드도 있음. 모든 소리는 녹음 파일 없이 브라우저에서 합성",
+      "ja": "紅葉に染まった小さな村を動物の友だちとゆっくり歩いて一息つく、3Dのヒーリングサイト。お寺では木魚の音と般若心経の読経、教会ではオルガンの讃美歌とクリスマスキャロル、聖堂では聖歌隊の歌が聞こえ、近づくほどその場所の音楽が少しずつ大きくなる。11種類の動物から一匹を選んで歩き、ほかの動物は村人として座布団で瞑想したり、広場や池のまわりを散歩したりする。その場に座って呼吸ガイドに合わせる瞑想モードもある。音はすべて録音ファイルを使わずブラウザで合成",
+      "en": "A 3D healing website where you take a slow walk through a small village in autumn colors with an animal friend. The temple has the wooden moktak and a chanted Heart Sutra, the church plays organ hymns and Christmas carols, and the cathedral has a singing choir, each fading in as you get closer. Pick one of 11 animals to walk with while the others live in the village, meditating on cushions or strolling around the square and pond, and sit down anywhere for a guided breathing meditation. Every sound is synthesized in the browser with no recordings"
+    },
+    "image": "images/meditation-temple.jpg"
+  },
+  {
     "path": "board_racing",
     "icon": "🛹",
     "name": {
