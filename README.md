@@ -1,6 +1,6 @@
 # mhyoo games
 
-유민혁이 만든 웹 게임 모음 → https://mhyoo-games.github.io/
+심심풀이 웹 게임 모음 → https://mhyoo-games.github.io/
 
 설치 없이 브라우저에서 바로 할 수 있습니다 (PC·휴대폰).
 

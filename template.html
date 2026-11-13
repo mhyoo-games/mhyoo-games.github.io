@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>mhyoo games — 유민혁이 만든 웹 게임</title>
+<title>mhyoo games — 심심풀이 웹 게임</title>
 <meta name="description" content="브라우저에서 바로 하는 웹 게임 모음: 횡스크롤 모험, 리듬 게임, RPG, 미니게임">
 <meta name="theme-color" content="#1a1221">
 <style>
@@ -47,9 +47,9 @@
 <script>
 const GAMES = /*GAMES*/[];
 const TEXT = {
-  ko: { lead: '유민혁이 만든 웹 게임 모음 — 설치 없이 브라우저에서 바로 해요. PC·휴대폰 모두 돼요.', play: '하러 가기 ▶', foot: '그림은 직접 코드로 그리거나 Kenney(CC0) 에셋을 썼고, 글꼴은 갈무리(OFL)예요. 만든 사람: 유민혁 · <a href="https://minhyuk94.github.io/resume/">이력서</a>' },
-  ja: { lead: 'ユ・ミンヒョクが作ったWebゲーム集。インストール不要で、ブラウザからすぐ遊べます。PC・スマホ対応。', play: '遊ぶ ▶', foot: '絵はコードで描いたもの、またはKenney（CC0）の素材です。フォントはGalmuri（OFL）。制作: ユ・ミンヒョク · <a href="https://minhyuk94.github.io/resume/">履歴書</a>' },
-  en: { lead: 'Browser games made by Minhyuk Yoo — no install, play right away on PC or phone.', play: 'Play ▶', foot: 'Art is drawn in code or uses Kenney (CC0) assets; font is Galmuri (OFL). Made by Minhyuk Yoo · <a href="https://minhyuk94.github.io/resume/">Résumé</a>' },
+  ko: { lead: '심심풀이 웹 게임 모음 — 설치 없이 브라우저에서 바로 해요. PC·휴대폰 모두 돼요.', play: '하러 가기 ▶', foot: '그림은 직접 코드로 그리거나 Kenney(CC0) 에셋을 썼고, 글꼴은 갈무리(OFL)예요. 만든 사람: 심심풀이' },
+  ja: { lead: 'ひまつぶし（심심풀이）のWebゲーム集。インストール不要で、ブラウザからすぐ遊べます。PC・スマホ対応。', play: '遊ぶ ▶', foot: '絵はコードで描いたもの、またはKenney（CC0）の素材です。フォントはGalmuri（OFL）。制作: 심심풀이' },
+  en: { lead: 'Browser games to pass the time (심심풀이) — no install, play right away on PC or phone.', play: 'Play ▶', foot: 'Art is drawn in code or uses Kenney (CC0) assets; font is Galmuri (OFL). Made by 심심풀이' },
 };
 function pick() {
   const q = new URLSearchParams(location.search).get('lang');
