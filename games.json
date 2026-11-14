@@ -1,5 +1,20 @@
 [
   {
+    "path": "MagicianStory",
+    "icon": "🧙",
+    "name": {
+      "ko": "매지션 스토리",
+      "ja": "マジシャン・ストーリー",
+      "en": "Magician Story"
+    },
+    "summary": {
+      "ko": "견습 마법사가 마탑의 시험을 치르며 초급·중급·상급·익스퍼트로 성장하는 픽셀 액션 RPG. 8장의 이야기와 장마다 중간보스·보스, 아홉 원소 스킬 200개, 장비 200개, 마지막엔 재앙의 용",
+      "ja": "見習い魔法使いが魔塔の試験を受けて初級・中級・上級・エキスパートへ成長するピクセルアクションRPG。全8章の物語と章ごとの中ボス・ボス、9属性のスキル200種、装備200種、最後は災厄の竜",
+      "en": "A pixel action RPG in which an apprentice mage passes the tower's exams to rise from novice to expert. An eight-chapter story with a mid-boss and boss in every chapter, 200 skills across nine elements, 200 pieces of gear, and a dragon at the end"
+    },
+    "image": "images/magicianstory.jpg"
+  },
+  {
     "path": "getFish",
     "icon": "🎣",
     "name": {
