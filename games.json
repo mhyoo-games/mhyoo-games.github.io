@@ -8,9 +8,9 @@
       "en": "getFish: Sea Fishing"
     },
     "summary": {
-      "ko": "물고기가 동그라미 위를 지나가는 순간 타이밍 맞춰 눌러 체력을 깎아 낚는 2D 웹 낚시 게임. 바다 네 곳(햇살 선착장·산호초 바다·안개 협만·심해 해구)마다 보스가 있고, 물고기 52종을 크기에 따라 C·B·A·S·SS 등급으로 잡아 도감을 채우며, 낚싯대·줄·찌·미끼와 아바타 꾸미기 장비를 상점에서 사거나 드랍으로 모아 점점 더 큰 물고기에 도전함",
-      "ja": "魚が丸の上を通る瞬間にタイミングよく押して体力を削り、釣り上げる2Dウェブ釣りゲーム。4つの海（陽だまりの桟橋・サンゴ礁の海・霧のフィヨルド・深海の海溝）それぞれにボスがいて、52種の魚を大きさでC・B・A・S・SSの等級に分けて図鑑を埋め、竿・糸・ウキ・エサやアバターの着せ替え装備をショップで買ったりドロップで集めたりして、より大きな魚に挑戦する",
-      "en": "A 2D web fishing game where you tap with good timing as the fish passes over a circle to drain its stamina and reel it in. Each of the four seas (Sunny Pier, Coral Reef, Misty Fjord and Deep Trench) has a boss; you fill an encyclopedia of 52 species graded C, B, A, S or SS by size, and collect rods, lines, floats, bait and avatar outfits from the shop or as drops to take on ever bigger fish"
+      "ko": "물고기가 과녁 위를 지날 때 타이밍 맞춰 눌러 낚는 2D 웹 낚시 게임. 바다 4곳, 물고기 52종, 장비 파밍과 도감 모으기",
+      "ja": "魚が的の上を通る瞬間にタイミングよく押して釣る2Dウェブ釣りゲーム。4つの海、52種の魚、装備集めと図鑑",
+      "en": "A 2D web fishing game where you tap in time as the fish crosses a target. Four seas, 52 species, gear farming and an encyclopedia"
     },
     "image": "images/getfish.jpg"
   },
@@ -23,9 +23,9 @@
       "en": "Mind Walk"
     },
     "summary": {
-      "ko": "맵을 골라 동물 친구와 천천히 걸으며 쉬어 가는 3D 힐링 웹사이트. 맵은 '단풍마을', '별빛 마법학교', '하늘 오름 숲' 세 곳. 단풍마을은 단풍이 물든 작은 마을. 낮·노을·밤을 바꿀 수 있고, 밤에는 길가 종이등과 석등, 연못에 뜬 연등, 절 안 연등이 따뜻하게 빛남. 산기슭 절에서는 목탁 소리와 반야심경 독경 속에 불상 앞 방석에서 절하고 향을 피우고, 교회에서는 오르간 찬송가·캐럴을 들으며 신자석에 앉아 기도하고, 고딕 성당에서는 성가대 노래 속에 기도하고 촛불을 켬. 건물 안에 들어가면 지붕이 사라져 안이 보이고 안에서도 시점을 마음대로 돌려 볼 수 있으며, 가까이 갈수록 그곳 음악이 서서히 커짐. 동물 11종 중 하나를 골라 걷고, 나머지는 주민이 되어 함께 절하고 기도하며 마을을 거님. 절에서는 목탁·시주·108배, 교회에서는 성가대, 성당에서는 세례명과 오늘의 운세도 즐길 수 있고, 머문 시간이 마음 기록과 업적으로 쌓임. 모든 소리는 녹음 파일 없이 브라우저에서 합성 별빛 마법학교는 큰 달이 뜬 밤의 성으로, 촛불이 떠 있는 대강당에서 식탁에 앉거나 촛불을 띄우고, 책이 떠다니는 도서관에서 책을 읽고, 안뜰 마법진에서 마법을 연습하고, 천문대에서 별을 봄. 주민은 그림책풍 견습 마법사 동물들. 하늘 오름 숲은 아주 큰 나무를 빙글빙글 돌아 꼭대기 하늘 정원까지 오르는 점프 맵으로, 점프와 2단 점프로 발판을 건너며 떨어져도 다시 한 칸씩 올라가고, 오른 높이와 시간이 기록됨",
-      "ja": "マップを選んで動物の友だちとゆっくり歩き、一息つく3Dのヒーリングサイト。マップは「紅葉の村」「星明かりの魔法学校」「空のぼりの森」の3つ。紅葉の村は紅葉に染まった小さな村。昼・夕焼け・夜を切り替えられ、夜には道ばたの紙灯籠や石灯籠、池に浮かぶ灯籠、お寺の中の提灯がやさしく灯る。山すそのお寺では木魚の音と般若心経の読経の中で仏像の前の座布団に座って礼拝し、お香をたき、教会ではオルガンの讃美歌やキャロルを聴きながら会衆席で祈り、ゴシックの聖堂では聖歌隊の歌の中で祈ってろうそくをともす。建物に入ると屋根が消えて中が見え、中でも視点を自由に回せて、近づくほどその場所の音楽が少しずつ大きくなる。11種類の動物から一匹を選んで歩き、ほかの動物は村人として一緒に礼拝や祈りをしたり村を散歩したりする。お寺の木魚・お布施・百八拝、教会の聖歌隊、聖堂での洗礼名と今日の運勢も楽しめ、過ごした時間が「心の記録」と実績としてたまる。音はすべて録音ファイルを使わずブラウザで合成。星明かりの魔法学校は大きな月が浮かぶ夜のお城で、ろうそくが浮かぶ大広間で食卓に座ったりろうそくを浮かべたりし、本が舞う図書館で本を読み、中庭の魔法陣で魔法を練習し、天文台で星を眺める。住人は絵本風の見習い魔法使いの動物たち。空のぼりの森は大きな木をぐるぐる回りながら、てっぺんの空の庭まで登るジャンプのマップで、ジャンプと二段ジャンプで足場を渡り、落ちてもまた一段ずつ登っていき、登った高さと時間が記録される",
-      "en": "A 3D healing website where you pick a map and take a slow walk with an animal friend. There are three maps: Maple Village, the Starlight Magic School and the Sky-Climb Forest. Maple Village is a small village in autumn colors. You can switch between day, sunset and night; at night paper lanterns along the paths, stone lanterns, lanterns floating on the pond and lanterns inside the temple glow warmly. At the hillside temple you bow on a cushion before the Buddha and light incense to the sound of the moktak and a chanted Heart Sutra, at the church you pray in the pews to organ hymns and carols, and in the Gothic cathedral you pray and light a candle while the choir sings. Roofs disappear when you step inside so you can see the interior and turn the view freely, and each place's music fades in as you get closer. Pick one of 11 animals to walk with while the others live in the village, bowing, praying and strolling alongside you. You can also strike the moktak, make an offering and do 108 bows at the temple, sing in the church choir, and get a baptismal name and today's fortune at the cathedral, while the time you spend builds up a personal record and achievements. Every sound is synthesized in the browser with no recordings. The Starlight Magic School is a castle at night under a big moon: sit at the tables or float a candle in the great hall lit by floating candles, read in a library where books drift through the air, practice magic on the courtyard's magic circle and look at the stars from the observatory. Its residents are picture-book apprentice witch animals. The Sky-Climb Forest is a jumping map: circle a giant tree up to the sky garden at the top, crossing platforms with jumps and double jumps; if you fall you just climb back one step at a time, and your height and time are recorded"
+      "ko": "동물 친구와 천천히 걸으며 쉬어 가는 3D 힐링 웹사이트. 단풍마을·별빛 마법학교·점프 맵 하늘 오름 숲",
+      "ja": "動物の仲間とゆっくり歩いてひと休みする3D癒やしサイト。紅葉の村・星明かりの魔法学校・ジャンプのマップ「空のぼりの森」",
+      "en": "A calming 3D website for slow walks with animal friends: Maple Village, the Starlight Magic School and the Sky-Climb Forest jumping map"
     },
     "image": "images/meditation-school.jpg"
   },
@@ -38,9 +38,9 @@
       "en": "Windboard Racing"
     },
     "summary": {
-      "ko": "하늘을 나는 보드를 타고 달리는 3D 웹 레이싱 게임. 점프대에서 A로 뛰어 S·D·F와 방향키 커맨드로 공중 묘기 13가지(그랩·360·720·앞뒤 구르기·1080 등)를 이어 부리고, 타이밍에 따라 GOOD·NICE·EXCELLENT 판정으로 게이지를 모아 부스터를 씀. 나무 계단·얼음길·하늘 섬 낭떠러지·8자 다리·큰 점프대와 스프링 발판·공중 고리가 있는 묘기 공원 등 트랙 6개에서 개인전·팀전(4 대 4)·타임어택·아이템전. 레벨을 올려 보드를 사고, 희귀 보드는 경주 뒤 행운 상자에서만 나옴. 6자리 방 코드로 친구들과 최대 8명 온라인. 게임 엔진 Godot로 제작",
-      "ja": "空飛ぶボードで走る3DのWebレースゲーム。ジャンプ台でAキーで跳び、S・D・Fと方向キーのコマンドで13種類の空中トリック（グラブ・360・720・前後の宙返り・1080など）をつなげて決め、タイミングに応じたGOOD・NICE・EXCELLENTの判定でゲージをためてブースターを使う。木の階段・氷の道・空の島の崖・8の字の橋、大ジャンプ台やスプリング台・空中リングのあるトリックパークなど6コースで、個人戦・チーム戦（4対4）・タイムアタック・アイテム戦。レベルを上げてボードを買い、レアボードはレース後のラッキーボックスからだけ出る。6桁のルームコードで最大8人のオンライン対戦もできる。ゲームエンジン Godot で制作",
-      "en": "A 3D browser racing game on flying hoverboards. Press A to launch off ramps and chain 13 mid-air tricks with S, D or F plus arrow-key commands (grabs, 360, 720, front and back flips, 1080 and more), earning GOOD, NICE or EXCELLENT ratings on your timing to fill the boost gauge. Race solo, in 4-on-4 teams, in time trials or item races across six tracks with wooden stairs, ice, sky-island gaps, a figure-eight bridge and a trick park full of big ramps, spring pads and floating rings. Level up to buy new boards, with rare boards only from the lucky box after a race, and race up to eight friends online with a six-character room code. Built with the Godot engine"
+      "ko": "하늘을 나는 보드로 달리며 점프대에서 공중 묘기를 부리는 3D 웹 레이싱 게임 (Godot)",
+      "ja": "空飛ぶボードで走り、ジャンプ台で空中トリックを決める3Dウェブレースゲーム（Godot）",
+      "en": "A 3D web racing game on flying boards with mid-air tricks off the ramps (Godot)"
     },
     "image": "images/boardracing-race.jpg"
   },
@@ -53,9 +53,9 @@
       "en": "Toy Racing"
     },
     "summary": {
-      "ko": "숲속 트랙을 장난감 카트로 달리는 3D 웹 레이싱 게임. 드리프트로 게이지를 모아 부스터를 쓰고, 순간부스터·인코스 공략·끌기·톡톡이·커팅 같은 드리프트 기술로 컴퓨터 7명과 스피드전·아이템전을 겨룸. 높은 다리·S자·U자 머리핀 등 트랙 6개. 모은 코인으로 카트를 사고, 한 화면을 나눠 둘이서 하거나 6자리 방 코드로 친구들과 최대 8명 온라인으로도 달릴 수 있음. 게임 엔진 Godot로 제작",
-      "ja": "森のコースをおもちゃのカートで走る3DのWebレースゲーム。ドリフトでゲージをためてブースターを使い、瞬間ブースター・インコース攻略・ドラッグ・小刻みドリフト・カッティングなどのドリフトテクニックでCPU 7台とスピード戦・アイテム戦を競う。高い橋・S字・U字ヘアピンなど6コース。集めたコインでカートを買え、画面分割の2人プレイや、6桁のルームコードでつなぐ最大8人のオンライン対戦もできる。ゲームエンジン Godot で制作",
-      "en": "A 3D browser racing game with toy karts on forest tracks. Drift to fill a gauge for boosts, and use drift techniques such as quick boosts, inside lines, dragging, tapping and cutting to beat seven CPU drivers in speed or item races, across six tracks with high bridges, S-bends and hairpins. Buy new karts with the coins you earn, and race a friend in split screen or online with up to eight players using a six-character room code. Built with the Godot engine"
+      "ko": "장난감 카트로 숲속 트랙을 달리는 3D 웹 레이싱 게임 (Godot)",
+      "ja": "おもちゃのカートで森のコースを走る3Dウェブレースゲーム（Godot）",
+      "en": "A 3D web racing game with toy karts on forest tracks (Godot)"
     },
     "image": "images/toyracing-race.jpg"
   },
@@ -68,9 +68,9 @@
       "en": "Left Alone Puppy"
     },
     "summary": {
-      "ko": "이삿날 농장에 홀로 남은 아기 강아지가 주인을 찾아 도시까지 떠나는 웹 횡스크롤 모험. 8개 스테이지마다 다른 기믹과 보스가 있고, 사이에 지도로 길을 이어 감. PC와 휴대폰 모두 지원",
-      "ja": "引っ越しの日に農場へ取り残された子犬が、飼い主を探して街まで旅するWebの横スクロールアクション。8つのステージごとに異なるギミックとボスがあり、ステージの間はマップで旅路をたどる。PCとスマートフォンの両方に対応",
-      "en": "A browser side-scrolling adventure in which a puppy left behind on a farm on moving day travels all the way to the city to find its owner. Each of the eight stages has its own gimmick and boss, linked by a world map. Works on both PC and phones"
+      "ko": "이삿날 홀로 남은 아기 강아지가 주인을 찾아 도시까지 떠나는 웹 횡스크롤 모험",
+      "ja": "引っ越しの日に取り残された子犬が、飼い主を探して街まで旅するウェブ横スクロールアクション",
+      "en": "A side-scrolling web adventure: a puppy left behind on moving day travels to the city to find its owner"
     },
     "image": "images/puppy-farm.jpg"
   },
@@ -83,9 +83,9 @@
       "en": "KeyJam"
     },
     "summary": {
-      "ko": "떨어지는 노트를 박자에 맞춰 치는 건반 방식에, 망치로 못을 박는 방식과 해와 달이 돌며 길을 따라가는 방식까지 세 가지로 즐기는 웹 리듬 게임. 자체곡은 브라우저에서 실시간으로 합성하고, 유튜브 영상 음악으로도 할 수 있음. PC와 휴대폰 모두 지원",
-      "ja": "落ちてくるノーツを鍵盤で叩くモードに加え、ハンマーで釘を打つモード、太陽と月が回りながら道をたどるモードの3種類で遊べるWebリズムゲーム。オリジナル曲はブラウザでリアルタイムに合成し、YouTube動画の音楽でも遊べる。PCとスマートフォンの両方に対応",
-      "en": "A browser rhythm game with three ways to play: hitting falling notes on a keyboard, hammering nails on a conveyor belt, and following a path as a sun and moon orbit each other. Original songs are synthesized live in the browser, YouTube music can be played too, and it works on both PC and phones"
+      "ko": "떨어지는 노트를 박자에 맞춰 치는 웹 리듬 게임. 건반·망치·해와 달 세 가지 방식, 유튜브 음악으로도 플레이",
+      "ja": "落ちてくるノーツをリズムに合わせて叩くウェブリズムゲーム。鍵盤・ハンマー・太陽と月の3つの遊び方、YouTubeの曲でも遊べる",
+      "en": "A web rhythm game of falling notes, with keys, hammer and sun-and-moon modes, playable with YouTube music too"
     },
     "image": "images/youtujam-play4.jpg"
   },
@@ -98,9 +98,9 @@
       "en": "Tales of Haesol"
     },
     "summary": {
-      "ko": "2000년대 초 국산 온라인 RPG 감성으로 새로 만든 2D RPG. 게임 엔진 Godot로 만들고, 그림·소리·지도를 모두 코드로 생성",
-      "ja": "2000年代初めの韓国製オンラインRPGの雰囲気で新たに作った2D RPG。ゲームエンジン Godot で制作し、グラフィック・サウンド・マップをすべてコードで生成",
-      "en": "A new 2D RPG in the spirit of early-2000s Korean online RPGs, built with the Godot engine, with all graphics, sound and maps generated from code"
+      "ko": "2000년대 초 국산 온라인 RPG 감성으로 새로 만든 2D RPG (Godot). 그림·소리·지도를 모두 코드로 생성",
+      "ja": "2000年代初めの韓国製オンラインRPGの雰囲気で新しく作った2D RPG（Godot）。絵・音・マップをすべてコードで生成",
+      "en": "A new 2D RPG in the spirit of early-2000s Korean online RPGs (Godot), with art, sound and maps all generated in code"
     },
     "image": "images/haesol-town.jpg"
   },
@@ -113,9 +113,9 @@
       "en": "Dalmaru Adventure"
     },
     "summary": {
-      "ko": "게임 엔진 Godot로 만든 탑다운 액션 RPG. 주인공 셋 중 하나를 골라 4장 모험을 떠나며, 그림·소리·지도를 모두 코드로 생성",
-      "ja": "ゲームエンジン Godot で作ったトップダウン型アクションRPG。3人の主人公から1人を選んで全4章の冒険へ。グラフィック・サウンド・マップはすべてコードで生成",
-      "en": "A top-down action RPG built with the Godot engine: pick one of three heroes for a four-chapter adventure, with all graphics, sound and maps generated from code"
+      "ko": "주인공 셋 중 하나를 골라 4장 모험을 떠나는 탑다운 액션 RPG (Godot). 그림·소리·지도를 모두 코드로 생성",
+      "ja": "主人公3人から1人を選んで4章の冒険に出るトップダウンのアクションRPG（Godot）。絵・音・マップをすべてコードで生成",
+      "en": "A top-down action RPG with a four-chapter adventure for one of three heroes (Godot), with art, sound and maps all generated in code"
     },
     "image": "images/dalmaru-village.jpg"
   },
@@ -129,8 +129,8 @@
     },
     "summary": {
       "ko": "옛 웹 미니게임 감성의 게임들을 새로 만들어 모은 웹 오락실",
-      "ja": "昔のWebミニゲームの雰囲気を再現したゲームを新たに作って集めたWebゲームセンター",
-      "en": "A web arcade of newly made games in the spirit of classic browser mini-games"
+      "ja": "昔のウェブミニゲームの雰囲気で新しく作ったゲームを集めたウェブゲームセンター",
+      "en": "A web arcade of newly made games in the spirit of old browser mini-games"
     },
     "image": "images/acorn-maze.jpg"
   }
