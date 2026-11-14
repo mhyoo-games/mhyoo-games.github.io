@@ -3,14 +3,14 @@
     "path": "getFish",
     "icon": "🎣",
     "name": {
-      "ko": "getFish 바다 낚시",
+      "ko": "겟피쉬 바다 낚시",
       "ja": "getFish 海釣り",
       "en": "getFish: Sea Fishing"
     },
     "summary": {
-      "ko": "물고기가 과녁 위를 지날 때 타이밍 맞춰 눌러 낚는 2D 웹 낚시 게임. 바다 4곳, 물고기 52종, 장비 파밍과 도감 모으기",
-      "ja": "魚が的の上を通る瞬間にタイミングよく押して釣る2Dウェブ釣りゲーム。4つの海、52種の魚、装備集めと図鑑",
-      "en": "A 2D web fishing game where you tap in time as the fish crosses a target. Four seas, 52 species, gear farming and an encyclopedia"
+      "ko": "물고기가 과녁 위를 지날 때 타이밍 맞춰 눌러 낚는 2D 웹 낚시 게임. 바다 8곳, 물고기 112종, 장비 파밍과 도감 모으기",
+      "ja": "魚が的の上を通る瞬間にタイミングよく押して釣る2Dウェブ釣りゲーム。8つの海、112種の魚、装備集めと図鑑",
+      "en": "A 2D web fishing game where you tap in time as the fish crosses a target. Eight seas, 112 species, gear farming and an encyclopedia"
     },
     "image": "images/getfish.jpg"
   },
