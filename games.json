@@ -8,9 +8,9 @@
       "en": "Toy Fish: Sea Fishing"
     },
     "summary": {
-      "ko": "장난감 낚시꾼이 과녁 위를 지나는 장난감 물고기를 타이밍 맞춰 눌러 낚는 2D 웹 낚시 게임. 바다 8곳, 물고기 112종, 장비 파밍과 도감 모으기",
-      "ja": "おもちゃの釣り人が、的の上を通るおもちゃの魚をタイミングよく押して釣る2Dウェブ釣りゲーム。8つの海、112種の魚、装備集めと図鑑",
-      "en": "A 2D web fishing game where a toy angler taps in time as toy fish cross a target. Eight seas, 112 species, gear farming and an encyclopedia"
+      "ko": "장난감 낚시꾼이 과녁 위를 지나는 장난감 물고기를 타이밍 맞춰 눌러 낚는 2D 웹 낚시 게임. 바다 8곳과 숨은 바다, 물고기 112종과 숨은 물고기, 장비 파밍과 도감 모으기",
+      "ja": "おもちゃの釣り人が、的の上を通るおもちゃの魚をタイミングよく押して釣る2Dウェブ釣りゲーム。8つの海と隠された海、112種の魚と隠れた魚、装備集めと図鑑",
+      "en": "A 2D web fishing game where a toy angler taps in time as toy fish cross a target. Eight seas plus a hidden one, 112 species plus secret fish, gear farming and an encyclopedia"
     },
     "image": "images/getfish.jpg"
   },
