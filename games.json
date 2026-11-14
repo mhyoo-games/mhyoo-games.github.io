@@ -3,14 +3,14 @@
     "path": "getFish",
     "icon": "🎣",
     "name": {
-      "ko": "겟피쉬 바다 낚시",
-      "ja": "getFish 海釣り",
-      "en": "getFish: Sea Fishing"
+      "ko": "토이피쉬 바다 낚시",
+      "ja": "トイフィッシュ 海釣り",
+      "en": "Toy Fish: Sea Fishing"
     },
     "summary": {
-      "ko": "물고기가 과녁 위를 지날 때 타이밍 맞춰 눌러 낚는 2D 웹 낚시 게임. 바다 8곳, 물고기 112종, 장비 파밍과 도감 모으기",
-      "ja": "魚が的の上を通る瞬間にタイミングよく押して釣る2Dウェブ釣りゲーム。8つの海、112種の魚、装備集めと図鑑",
-      "en": "A 2D web fishing game where you tap in time as the fish crosses a target. Eight seas, 112 species, gear farming and an encyclopedia"
+      "ko": "장난감 낚시꾼이 과녁 위를 지나는 장난감 물고기를 타이밍 맞춰 눌러 낚는 2D 웹 낚시 게임. 바다 8곳, 물고기 112종, 장비 파밍과 도감 모으기",
+      "ja": "おもちゃの釣り人が、的の上を通るおもちゃの魚をタイミングよく押して釣る2Dウェブ釣りゲーム。8つの海、112種の魚、装備集めと図鑑",
+      "en": "A 2D web fishing game where a toy angler taps in time as toy fish cross a target. Eight seas, 112 species, gear farming and an encyclopedia"
     },
     "image": "images/getfish.jpg"
   },
