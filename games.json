@@ -133,35 +133,5 @@
       "en": "A new 2D RPG in the spirit of early-2000s Korean online RPGs (Godot), with art, sound and maps all generated in code"
     },
     "image": "images/haesol-town.jpg"
-  },
-  {
-    "path": "dalmaru",
-    "icon": "🌕",
-    "name": {
-      "ko": "달마루 모험기",
-      "ja": "タルマル冒険記",
-      "en": "Dalmaru Adventure"
-    },
-    "summary": {
-      "ko": "주인공 셋 중 하나를 골라 4장 모험을 떠나는 탑다운 액션 RPG (Godot). 그림·소리·지도를 모두 코드로 생성",
-      "ja": "主人公3人から1人を選んで4章の冒険に出るトップダウンのアクションRPG（Godot）。絵・音・マップをすべてコードで生成",
-      "en": "A top-down action RPG with a four-chapter adventure for one of three heroes (Godot), with art, sound and maps all generated in code"
-    },
-    "image": "images/dalmaru-village.jpg"
-  },
-  {
-    "path": "flashgames",
-    "icon": "🕹️",
-    "name": {
-      "ko": "추억의 오락실",
-      "ja": "思い出のゲームセンター",
-      "en": "Retro Arcade"
-    },
-    "summary": {
-      "ko": "옛 웹 미니게임 감성의 게임들을 새로 만들어 모은 웹 오락실",
-      "ja": "昔のウェブミニゲームの雰囲気で新しく作ったゲームを集めたウェブゲームセンター",
-      "en": "A web arcade of newly made games in the spirit of old browser mini-games"
-    },
-    "image": "images/acorn-maze.jpg"
   }
 ]
