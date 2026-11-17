@@ -2,6 +2,7 @@
 
 조직 mhyoo-games의 첫 화면 `https://mhyoo-games.github.io/` — 심심풀이 웹 게임 모음. 사용자는 한국어로 대화합니다.
 
+- 방문 통계: Google Analytics(`G-J2XRD7X74X`, 속성 mhyooGames) — `template.html`. 광고 기능(Google 신호·광고 맞춤) 끔. 자동 시험 브라우저(`navigator.webdriver`)·github.io 밖에서는 켜지 않는다(CI가 통계를 더럽히지 않게).
 - 게임은 각자 저장소(같은 조직)의 GitHub Pages: `/city-of-laborer/`, `/MagicianStory/`, `/getFish/`, `/meditation_web/`, `/board_racing/`, `/toy_racing/`, `/LeftAlonePuppy/`, `/youtujam/`, `/haesol/` (추억의 오락실·달마루는 목록에서 뺐다 — 사용자 요청). 이 저장소는 목록 화면만.
 - 목록은 `games.json` (이름·소개 ko/ja/en, 그림 `images/`). 소개 글은 이력서(minhyuk94.github.io `src/data/resume.json`의 `games`)와 같은 뜻으로 맞춘다. 게임을 더하면 여기와 이력서 둘 다.
 - 화면·README에 실명을 넣지 않는다. 만든 사람은 "심심풀이"로 적는다 (사용자 요청).
